@@ -132,6 +132,11 @@ nav {
 
 /*card*/
 
+.titulos_produtos {
+    position: absolute;
+    padding-bottom: 700px;
+}
+
 .card_container {
     font-family: var(--fonte_1);
     display: flex;
