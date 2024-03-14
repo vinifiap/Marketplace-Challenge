@@ -138,7 +138,50 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 260px;
+    height: 430px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 12px #AAAAAA;
+}
+
+.card div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+}
+
+.card h1 {
+    font-size: 1.2rem;
+}
+
+.card h2 {
+    font-size: .9rem;
+    color: #AAAAAA;
+}
+
+.card button {
+    background-color: #2192FF;
+    height: 30px;
+    border: none;
+    padding: 4px;
+    width: 80%;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card img {
+    width: 250px;
 }
 
 /*novos_produtos*/
@@ -188,7 +231,7 @@ nav {
 }
 
 .card_container_show::after {
-    content:'Airpods';
+    content: 'Airpods, Cases e Acessórios';
     position: absolute;
     bottom: 0;
     left: 0;
