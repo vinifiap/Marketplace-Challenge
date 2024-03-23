@@ -104,9 +104,7 @@ main{
     height: auto;
 
 }
-#colors{    
 
-}
 .color{
     display: inline-flex;
     width: 35px;
@@ -117,8 +115,9 @@ main{
     border: 2px solid #90a1ff
 }
 .color:hover{
-    scale:1.1
+    scale:1.1;
 }
+
 #blue{
     background-color: lightblue;   
 
