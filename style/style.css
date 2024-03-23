@@ -217,7 +217,7 @@ nav {
 }
 
 .card_container_show:hover .imgBx img {
-    max-width: 70%;
+    max-width: 20%;
 }
 
 .card_container_show .contentBx {
@@ -233,6 +233,25 @@ nav {
 
 .contentBx a {
     text-decoration: none;
+}
+
+.ver_produtos {
+    display: flex;
+    background-color: var(--cor_principal);
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: var(--fonte_1);
+    font-weight: 500;
+    padding: 15px;
+}
+
+.ver_produtos a {
+    text-decoration: none;
+    color: #000000;
+    border: var(--cor_hover_quaternaria) solid 10px;
+    background-color: var(--cor_hover_quaternaria);
+    border-radius: 10px;
 }
 
 /*card*/

@@ -23,8 +23,20 @@ body {
 /*barra de navegação*/
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: var(--cor_principal);
+    border-radius: 10px;
+}
+
+.img-nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-nav img {
+    height: 60px;
 }
 
 .barra_de_navegacao {
@@ -41,7 +53,7 @@ nav {
 
 .lista_opcao_navegacao {
     list-style: none;
-    margin-top: 12px;
+    margin-top: 20px;
 }
 
 .lista_opcao {
@@ -60,6 +72,8 @@ nav {
     text-decoration: none;
     font-family: var(--fonte_1);
     color: #000000;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .iconi_navegacao {
@@ -67,8 +81,9 @@ nav {
     align-items: center;
     gap: 15px;
     margin-bottom: 5px;
+    font-size: 20px;
 }
-
+/*barra de navegação*/
 #description{
     display:flex;
     padding: 1% 21%;
