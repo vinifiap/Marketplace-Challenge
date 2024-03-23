@@ -216,6 +216,8 @@ nav {
     transition: 0.5s;
 }
 
+
+
 .card_container_show:hover .imgBx img {
     max-width: 20%;
 }
