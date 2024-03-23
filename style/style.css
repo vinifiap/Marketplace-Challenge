@@ -147,20 +147,6 @@ nav {
 
 /*carrossel */
 
-
-/*novos_produtos*/
-.novos_produtos {
-    display: flex;
-    height: 100vh;
-    font-family: var(--fonte_1);
-    gap: 10px;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-/*novos_produtos*/
-
 /*card*/
 
 .titulos_produtos {
