@@ -121,6 +121,8 @@ main{
 
 }
 
+
+
 .color{
     display: inline-flex;
     width: 35px;
@@ -132,6 +134,7 @@ main{
 }
 .color:hover{
     scale:1.1;
+    transition: scale 0.2s ease;
 }
 
 #blue{
@@ -210,19 +213,40 @@ main{
 
 
 @media (max-width: 600px) {
-    .pe_da_pagina {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: var(--cor_secundaria);
-        padding: 0.5rem; 
-        font-size: 12px; 
+    
+    
+    #description{
+        display:flex;
+        padding: 1% 5%;
+        border-bottom: 1px solid #878787;
     }
-}
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 5%;
+
+    }
+    
+    #left-main {
+        max-width: 100%;
+        order: 2;
+    }
+    
+    #right-main {
+        order: 1;
+        margin:0;
+        padding: 0;
+    }
+   
+
+ 
 
 
-@media (min-width: 601px) and (max-width: 900px) {
+
+
+
+
     .pe_da_pagina {
         padding: 0.75rem;
         font-size: 14px; 
@@ -230,7 +254,38 @@ main{
 }
 
 
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 900px) {
+    #description{
+        display:flex;
+        padding: 1% 5%;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 5%;
+
+    }
+    
+    #left-main {
+        max-width: 100%;
+        order: 2;
+    }
+    
+    #right-main {
+        order: 1;
+        margin:0;
+        padding: 0;
+    }
+    
+    .pe_da_pagina {
+        padding: 0.75rem;
+        font-size: 14px; 
+    }
+}
+
+
+@media (min-width: 901) and (max-width: 1200px) {
     .pe_da_pagina {
         padding: 1rem; 
         font-size: 15px; 
