@@ -1,3 +1,17 @@
 @media (min-width: 1201px) {
-    
+    .card_container_show {
+        width: 400px; /* Ajustar conforme necessário */
+    }
+
+    .lista_opcao {
+        justify-content: flex-end;
+    }
+
+    .carousel-slide img {
+        min-width: 100%; /* Garantir cobertura total */
+    }
+
+    .titulos_produtos, .novos_produtos h1 {
+        font-size: x-large; /* Ajustar tamanho do texto */
+    }
 }
