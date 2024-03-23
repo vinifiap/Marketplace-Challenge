@@ -61,10 +61,10 @@
 
             <div id="colors">
                 <h4>Cor - Azul-claro</h4>
-                <span class="color" id="blue"></span>
-                <span class="color" id="green"></span>
-                <span class="color" id="grey"></span>
-                <span class="color" id="white"></span>
+                <span onclick="trocarImagem('./img/produdct_img/iPhone_case.png')" class="color" id="blue"></span>
+                <span onclick="trocarImagem('./img/produdct_img/greenCase.png')" class="color" id="green"></span>
+                <span onclick="trocarImagem('./img/produdct_img/pinkCase.png')" class="color" id="pink"></span>
+                <span onclick="trocarImagem('./img/produdct_img/blackCase.png')" class="color" id="black"></span>
             </div>
 
             <div id="shipping">
@@ -87,7 +87,7 @@
 
         <div id="right-main">
             <div id="product-image">
-                <img src="./img/produdct_img/iPhone_case.png" alt="phone-case">
+                <img src="./img/produdct_img/iPhone_case.png" id=case-color alt="phone-case">
             </div>
         </div>
     </main>
@@ -102,5 +102,7 @@
             <p>COPYRIGHT ©</p>
         </div>
     </footer>
+    <script src="./script.js"></script>
+
 </body>
 </html>
